@@ -14,7 +14,7 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text"><i class="fas fa-user"></i></span>
                     </div>
-                    <input type="email" class="form-control" name="username" id="inputEmail" placeholder="Email Address1" autofocus>
+                    <input type="email" class="form-control" name="username" id="inputEmail" placeholder="Email Address" autofocus>
                 </div>
             </div>
             <div class="form-group mb-4 focused">
