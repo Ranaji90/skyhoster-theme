@@ -14,7 +14,7 @@
  */
 :root {
   /* --blue: #007bff; */
-  --mainlogo: #02aee7;
+  --mainlogo: #4c57d6;
   --white: #fff;
   --blue: #100c58;
   --indigo: #6610f2;
@@ -2756,8 +2756,10 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #f0ad4e;
-  border-color: #f0ad4e
+  /*background-color: #f0ad4e;*/
+  /*border-color: #f0ad4e*/
+   background-color: #4a8d59;
+  border-color: #4a8d59;
 }
 
 .btn-success:hover {
@@ -3572,9 +3574,9 @@ input[type=submit].btn-block {
 
 .dropdown-divider {
   height: 0;
-  margin: .5rem 0;
+  /* margin: .5rem 0; */
   overflow: hidden;
-  border-top: 1px solid #e9ecef
+/*  border-top: 1px solid #e9ecef */
 }
 
 .dropdown-item {
@@ -3594,7 +3596,7 @@ input[type=submit].btn-block {
 .dropdown-item:hover {
   color: #16181b;
   text-decoration: none;
-  background-color: #f8f9fa
+  background-color:#211d6a 
 }
 
 .dropdown-item.active,
@@ -4952,10 +4954,12 @@ input[type=submit].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #f9f9f9;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem
+  /*border: 1px solid rgba(0, 0, 0, .125);*/
+  border-radius: 0.875rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .card>hr,
@@ -5002,7 +5006,7 @@ input[type=submit].btn-block {
 .mc-promo-manage .content {
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem
+  padding: 1.25rem;
 }
 
 .card-title,
@@ -10962,7 +10966,8 @@ html {
 section#main-body {
   margin: 0;
   padding: 20px 0;
-  min-height: 350px
+  min-height: 350px;
+  background: #fff;
 }
 
 section#main-content {
@@ -11325,9 +11330,11 @@ header.header .toolbar {
 header.header .toolbar .nav-link {
   padding: .5rem 1rem;
   border-radius: .25rem;
-  border: 1px solid #e5e5e5;
-  color: #e5e5e5;
+  /*border: 1px solid #e5e5e5;*/
+   border: 1px solid var(--mainlogo);
+  color: #fff;
   position: relative;
+  background:var(--mainlogo);
   font-size: .9em
 }
 
@@ -11811,7 +11818,7 @@ fieldset[disabled] .btn-default:hover {
 .card-accent-gold {
   /* border-top: 3px solid #f0ad4e */
 
-  box-shadow: 0 -5px 5px -5px #333, 0 5px 5px -5px #333;
+ box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
   margin-top: 20px;
 }
 
@@ -11825,7 +11832,7 @@ fieldset[disabled] .btn-default:hover {
 
 .card-accent-blue {
   /* border-top: 3px solid #5bc0de */
-  box-shadow: 0 -5px 5px -5px #333, 0 5px 5px -5px #333;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   margin-top: 20px;
 }
 
@@ -11859,7 +11866,7 @@ fieldset[disabled] .btn-default:hover {
 
 .card-accent-emerald {
   /* border-top: 3px solid #2ecc71 */
-  box-shadow: 0 -5px 5px -5px #333, 0 5px 5px -5px #333;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   margin-top: 20px;
 }
 
@@ -11889,7 +11896,7 @@ fieldset[disabled] .btn-default:hover {
 
 .card-accent-asbestos {
   /* border-top: 3px solid #7f8c8d */
-  box-shadow: 0 -5px 5px -5px #333, 0 5px 5px -5px #333;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   margin-top: 20px;
 }
 
@@ -11903,7 +11910,7 @@ fieldset[disabled] .btn-default:hover {
 
 .bg-color-gold {
   /* background-color: #f0ad4e */
-  background-color: #fff;
+  background-color:#7f8c8d;
 }
 
 .bg-color-green {
@@ -11919,7 +11926,7 @@ fieldset[disabled] .btn-default:hover {
 
 .bg-color-blue {
   /* background-color: #5bc0de */
-  background-color: #fff;
+  background-color: #7f8c8d;
 
 }
 
@@ -12223,7 +12230,8 @@ fieldset[disabled] .btn-default:hover {
 .sidebar .mc-promo-login .panel-heading h3,
 .sidebar .mc-promo-manage .panel-heading h3,
 .sidebar .promo-container .header h3 {
-  font-size: 16px
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .mc-promo-login .panel-heading .sidebar h3 .btn-group-sm>.btn,
@@ -12547,6 +12555,7 @@ fieldset[disabled] .btn-default:hover {
   border: 1px solid;
   border-radius: 50%;
   color: white;
+  padding-top: 3px;
 
 }
 
@@ -12582,7 +12591,7 @@ fieldset[disabled] .btn-default:hover {
 
 .tiles .tile:hover i {
   font-size: 40px;
-  color: #aaa
+  color: #fff
 }
 
 .tiles .row>div:last-child .tile {
@@ -14133,18 +14142,30 @@ div.tweet span {
 
 #registration .field,
 #registration .form-control {
+  /*position: relative;*/
+  /*vertical-align: top;*/
+  /*border: 1px solid #ddd;*/
+  /*display: -moz-inline-stack;*/
+  /*display: inline-block;*/
+  /*color: #626262;*/
+  /*outline: 0;*/
+  /*background: #fff;*/
+ 
+ 
   position: relative;
+  /*display: block;*/
   vertical-align: top;
-  border: 1px solid #ddd;
-  display: -moz-inline-stack;
-  display: inline-block;
-  color: #626262;
-  outline: 0;
-  background: #fff;
-  height: 36px;
-  width: 100%;
-  border-radius: 3px;
-  font-size: 13px
+    width: 100%;
+    height: 3.25rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.45;
+    color: #212529;
+    background-color: #ffffff;
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid #F5F5F5;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 #registration .input-group-lg>.form-control {
@@ -14185,7 +14206,7 @@ div.tweet span {
 }
 
 #registration .prepend-icon .field-icon {
-  top: 0;
+  top: 15%;
   z-index: 4;
   width: 42px;
   height: 36px;
@@ -15005,3 +15026,21 @@ table.ox-table-accounts .input-group {
   color: var(--mainlogo);
 }
 
+
+.primary-content > p {
+  
+  display: none;
+}
+
+header.header .navbar a:hover {
+
+text-decoration: none;
+}
+
+.sidebar > .Client > .collapsable-card-body > .card-body {
+  
+  font-size: .9em;
+  font-family: "Open Sans", sans-serif;
+  
+  
+}

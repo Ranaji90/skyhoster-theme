@@ -80,12 +80,12 @@
         <div class="navbar navbar-light">
             <div class="container">
                 <a class="navbar-brand mr-3" href="{$WEB_ROOT}/index.php">
-                 {*   {if $assetLogoPath}
+                   {if $assetLogoPath}
                         <img src="{$assetLogoPath}" alt="{$companyname}" class="logo-img">
                     {else}
                         {$companyname}
-                    {/if}   *}
-                    <img src="templates\twenty-one\images\logo.png" height="80px"/>
+                    {/if}   
+                   
                 </a>
 
                {*  <form method="post" action="{routePath('knowledgebase-search')}" class="form-inline ml-auto">
