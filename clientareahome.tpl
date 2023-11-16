@@ -124,10 +124,7 @@
             {/foreach}
 
         </div>
-        
-
-        
-        <div class="col-md-6 col-lg-12 col-xl-6">
+       {* <div class="col-md-6 col-lg-12 col-xl-6">
 
             {foreach $panels as $item}
                 {if $item@iteration is odd}
@@ -135,9 +132,8 @@
                 {/if}
             {/foreach}
 
-        </div> 
-        
-                 <div class="col-md-6 col-lg-12 col-xl-6">
+        </div> *}
+        <div class="col-md-6 col-lg-12 col-xl-12">
 
             {foreach $panels as $item}
                 {if $item@iteration is even}
@@ -146,6 +142,5 @@
             {/foreach}
 
         </div>
-       
     </div>
 </div>

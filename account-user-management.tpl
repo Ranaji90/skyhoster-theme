@@ -2,7 +2,7 @@
 
 <div class="card">
     <div class="card-body">
-        <h3 class="card-title">{lang key="navUserManagement"}</h3>
+        <h3 class="card-title  main-heading1">{lang key="navUserManagement"}</h3>
 
         <p>{lang key="userManagement.usersFound" count=$users->count()}</p>
 
@@ -82,7 +82,7 @@
 
 <div class="card">
     <div class="card-body">
-        <h3 class="card-title">{lang key="userManagement.inviteNewUser"}</h3>
+        <h3 class="card-title main-heading1">{lang key="userManagement.inviteNewUser"}</h3>
 
         <p>{lang key="userManagement.inviteNewUserDescription"}</p>
 
